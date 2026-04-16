@@ -1,6 +1,6 @@
 {
   "name": "opencode-presence",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "OpenCode plugin that syncs Discord Rich Presence with your session",
   "keywords": [
     "discord",
@@ -16,7 +16,8 @@
   "type": "module",
   "module": "src/index.ts",
   "exports": {
-    ".": "./src/index.ts"
+    ".": "./src/index.ts",
+    "./server": "./src/index.ts"
   },
   "scripts": {
     "check": "tsc --noEmit",
